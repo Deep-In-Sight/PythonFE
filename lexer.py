@@ -16,6 +16,7 @@ class Lexer():
         # Operators
         self.lexer.add('SUM', r'\+')
         self.lexer.add('SUB', r'\-')
+        self.lexer.add("MULT", r'\*')
         # Number
         self.lexer.add('NUMBER', r'\d+')
         # Ignore spaces
